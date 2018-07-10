@@ -26,3 +26,14 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.jumbotron {
+  height: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0
+}
