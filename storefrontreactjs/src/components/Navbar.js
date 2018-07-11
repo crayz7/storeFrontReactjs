@@ -15,9 +15,9 @@ const Navbar = () => (
                   Electronics
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/laptops">Laptops</a>
-                  <a className="dropdown-item" href="/televisions">Televisions</a>
-                  <a className="dropdown-item" href="/gaming">Gaming Consoles</a>
+                  <a className="dropdown-item" href="/store/laptops">Laptops</a>
+                  <a className="dropdown-item" href="/store/televisions">Televisions</a>
+                  <a className="dropdown-item" href="/store/gaming">Gaming Consoles</a>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -25,9 +25,9 @@ const Navbar = () => (
                   Clothing
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/shirts">Shirts</a>
-                  <a className="dropdown-item" href="/pants">Pants</a>
-                  <a className="dropdown-item" href="/jackets">Jackets</a>
+                  <a className="dropdown-item" href="/store/shirts">Shirts</a>
+                  <a className="dropdown-item" href="/store/pants">Pants</a>
+                  <a className="dropdown-item" href="/store/jackets">Jackets</a>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -35,9 +35,9 @@ const Navbar = () => (
                   Books
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/bestsellers">Bestsellers</a>
-                  <a className="dropdown-item" href="/fiction">Fiction</a>
-                  <a className="dropdown-item" href="/nonfiction">Non-fiction</a>
+                  <a className="dropdown-item" href="/store/bestsellers">Bestsellers</a>
+                  <a className="dropdown-item" href="/store/fiction">Fiction</a>
+                  <a className="dropdown-item" href="/store/nonfiction">Non-fiction</a>
                 </div>
               </li>
             </ul>

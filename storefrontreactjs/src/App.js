@@ -1,16 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Products from './components/Products';
 
-class App extends Component {
+
+class App extends React.Component {
+  state = {
+    cart: {}
+};
+  
   render() {
     return (
       <React.Fragment>
         <Header />
         <Navbar />
-
+        
+        <Footer />
       </React.Fragment>
     );
   }
